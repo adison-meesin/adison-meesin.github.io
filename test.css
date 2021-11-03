@@ -1,0 +1,17 @@
+.mv_loop {
+    position: absolute;
+    left: 0;
+    bottom: 0
+px
+;
+}
+.mv_loop.load {
+    transition: all 0.3s linear;
+}
+.sec06 .mv_loop {
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: auto;
+}
